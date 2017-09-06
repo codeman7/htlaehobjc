@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		241572F719AECD7B00C046A4 /* HMoveHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241572F619AECD7B00C046A4 /* HMoveHomeViewController.m */; };
+		2444F1971990214A0093BB9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2444F1961990214A0093BB9C /* Foundation.framework */; };
+		2444F1991990214A0093BB9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2444F1981990214A0093BB9C /* CoreGraphics.framework */; };
+		2444F19B1990214A0093BB9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2444F19A1990214A0093BB9C /* UIKit.framework */; };
+		2444F1A11990214A0093BB9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2444F19F1990214A0093BB9C /* InfoPlist.strings */; };
+		2444F1A31990214A0093BB9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2444F1A21990214A0093BB9C /* main.m */; };
+		2444F1A71990214A0093BB9C /* HMoveAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2444F1A61990214A0093BB9C /* HMoveAppDelegate.m */; };
+		2444F1AA1990214A0093BB9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2444F1A81990214A0093BB9C /* Main.storyboard */; };
+		2444F1AD1990214A0093BB9C /* HMoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2444F1AC1990214A0093BB9C /* HMoveViewController.m */; };
+		2444F1AF1990214A0093BB9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2444F1AE1990214A0093BB9C /* Images.xcassets */; };
+		2444F1D7199085440093BB9C /* HMoveSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2444F1D6199085440093BB9C /* HMoveSignInViewController.m */; };
+		2468842D1A4EA6D100A90E5F /* HMoveEditPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2468842C1A4EA6D100A90E5F /* HMoveEditPreviewViewController.m */; };
+		246DA309199842FC00EB1374 /* HMoveSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246DA308199842FC00EB1374 /* HMoveSignUpViewController.m */; };
+		246FD4C119EC8FAD00BBFC36 /* HMoveEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246FD4C019EC8FAD00BBFC36 /* HMoveEditViewController.m */; };
+		2498EB3619CA26730037090E /* HMoveCounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2498EB3519CA26730037090E /* HMoveCounterViewController.m */; };
+		24BC7D7D19C17494007C6DFE /* HErrorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BC7D7C19C17494007C6DFE /* HErrorViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		241572F519AECD7B00C046A4 /* HMoveHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMoveHomeViewController.h; sourceTree = "<group>"; };
+		241572F619AECD7B00C046A4 /* HMoveHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMoveHomeViewController.m; sourceTree = "<group>"; };
+		2444F1931990214A0093BB9C /* Htlaeh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Htlaeh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2444F1961990214A0093BB9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2444F1981990214A0093BB9C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2444F19A1990214A0093BB9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2444F19E1990214A0093BB9C /* Htlaeh-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Htlaeh-Info.plist"; sourceTree = "<group>"; };
+		2444F1A01990214A0093BB9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2444F1A21990214A0093BB9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2444F1A41990214A0093BB9C /* Htlaeh-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Htlaeh-Prefix.pch"; sourceTree = "<group>"; };
+		2444F1A51990214A0093BB9C /* HMoveAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMoveAppDelegate.h; sourceTree = "<group>"; };
+		2444F1A61990214A0093BB9C /* HMoveAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMoveAppDelegate.m; sourceTree = "<group>"; };
+		2444F1A91990214A0093BB9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2444F1AB1990214A0093BB9C /* HMoveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMoveViewController.h; sourceTree = "<group>"; };
+		2444F1AC1990214A0093BB9C /* HMoveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMoveViewController.m; sourceTree = "<group>"; };
+		2444F1AE1990214A0093BB9C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2444F1B51990214A0093BB9C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2444F1BD1990214B0093BB9C /* HtlaehTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HtlaehTests-Info.plist"; sourceTree = "<group>"; };
+		2444F1BF1990214B0093BB9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2444F1C11990214B0093BB9C /* MoveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveTests.m; sourceTree = "<group>"; };
+		2444F1D5199085440093BB9C /* HMoveSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMoveSignInViewController.h; sourceTree = "<group>"; };
+		2444F1D6199085440093BB9C /* HMoveSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMoveSignInViewController.m; sourceTree = "<group>"; };
+		2468842B1A4EA6D100A90E5F /* HMoveEditPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMoveEditPreviewViewController.h; sourceTree = "<group>"; };
+		2468842C1A4EA6D100A90E5F /* HMoveEditPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMoveEditPreviewViewController.m; sourceTree = "<group>"; };
+		246DA307199842FC00EB1374 /* HMoveSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMoveSignUpViewController.h; sourceTree = "<group>"; };
+		246DA308199842FC00EB1374 /* HMoveSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMoveSignUpViewController.m; sourceTree = "<group>"; };
+		246FD4BF19EC8FAD00BBFC36 /* HMoveEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMoveEditViewController.h; sourceTree = "<group>"; };
+		246FD4C019EC8FAD00BBFC36 /* HMoveEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMoveEditViewController.m; sourceTree = "<group>"; };
+		2498EB3419CA26730037090E /* HMoveCounterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMoveCounterViewController.h; sourceTree = "<group>"; };
+		2498EB3519CA26730037090E /* HMoveCounterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMoveCounterViewController.m; sourceTree = "<group>"; };
+		24BC7D7B19C17493007C6DFE /* HErrorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HErrorViewController.h; sourceTree = "<group>"; };
+		24BC7D7C19C17494007C6DFE /* HErrorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HErrorViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2444F1901990214A0093BB9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2444F1991990214A0093BB9C /* CoreGraphics.framework in Frameworks */,
+				2444F19B1990214A0093BB9C /* UIKit.framework in Frameworks */,
+				2444F1971990214A0093BB9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2444F18A1990214A0093BB9C = {
+			isa = PBXGroup;
+			children = (
+				2444F19C1990214A0093BB9C /* Move */,
+				2444F1BB1990214B0093BB9C /* MoveTests */,
+				2444F1951990214A0093BB9C /* Frameworks */,
+				2444F1941990214A0093BB9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2444F1941990214A0093BB9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2444F1931990214A0093BB9C /* Htlaeh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2444F1951990214A0093BB9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2444F1961990214A0093BB9C /* Foundation.framework */,
+				2444F1981990214A0093BB9C /* CoreGraphics.framework */,
+				2444F19A1990214A0093BB9C /* UIKit.framework */,
+				2444F1B51990214A0093BB9C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2444F19C1990214A0093BB9C /* Move */ = {
+			isa = PBXGroup;
+			children = (
+				2444F1A81990214A0093BB9C /* Main.storyboard */,
+				246FD4BF19EC8FAD00BBFC36 /* HMoveEditViewController.h */,
+				246FD4C019EC8FAD00BBFC36 /* HMoveEditViewController.m */,
+				2468842B1A4EA6D100A90E5F /* HMoveEditPreviewViewController.h */,
+				2468842C1A4EA6D100A90E5F /* HMoveEditPreviewViewController.m */,
+				2498EB3419CA26730037090E /* HMoveCounterViewController.h */,
+				2498EB3519CA26730037090E /* HMoveCounterViewController.m */,
+				24BC7D7B19C17493007C6DFE /* HErrorViewController.h */,
+				24BC7D7C19C17494007C6DFE /* HErrorViewController.m */,
+				241572F519AECD7B00C046A4 /* HMoveHomeViewController.h */,
+				241572F619AECD7B00C046A4 /* HMoveHomeViewController.m */,
+				246DA307199842FC00EB1374 /* HMoveSignUpViewController.h */,
+				246DA308199842FC00EB1374 /* HMoveSignUpViewController.m */,
+				2444F1D5199085440093BB9C /* HMoveSignInViewController.h */,
+				2444F1D6199085440093BB9C /* HMoveSignInViewController.m */,
+				2444F1AB1990214A0093BB9C /* HMoveViewController.h */,
+				2444F1AC1990214A0093BB9C /* HMoveViewController.m */,
+				2444F1AE1990214A0093BB9C /* Images.xcassets */,
+				2444F19D1990214A0093BB9C /* Supporting Files */,
+			);
+			path = Move;
+			sourceTree = "<group>";
+		};
+		2444F19D1990214A0093BB9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2444F1A51990214A0093BB9C /* HMoveAppDelegate.h */,
+				2444F1A61990214A0093BB9C /* HMoveAppDelegate.m */,
+				2444F19E1990214A0093BB9C /* Htlaeh-Info.plist */,
+				2444F19F1990214A0093BB9C /* InfoPlist.strings */,
+				2444F1A21990214A0093BB9C /* main.m */,
+				2444F1A41990214A0093BB9C /* Htlaeh-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2444F1BB1990214B0093BB9C /* MoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				2444F1C11990214B0093BB9C /* MoveTests.m */,
+				2444F1BC1990214B0093BB9C /* Supporting Files */,
+			);
+			path = MoveTests;
+			sourceTree = "<group>";
+		};
+		2444F1BC1990214B0093BB9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2444F1BD1990214B0093BB9C /* HtlaehTests-Info.plist */,
+				2444F1BE1990214B0093BB9C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2444F1921990214A0093BB9C /* Htlaeh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2444F1C51990214B0093BB9C /* Build configuration list for PBXNativeTarget "Htlaeh" */;
+			buildPhases = (
+				2444F18F1990214A0093BB9C /* Sources */,
+				2444F1901990214A0093BB9C /* Frameworks */,
+				2444F1911990214A0093BB9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Htlaeh;
+			productName = Move;
+			productReference = 2444F1931990214A0093BB9C /* Htlaeh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2444F18B1990214A0093BB9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HMove;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Htlaeh;
+			};
+			buildConfigurationList = 2444F18E1990214A0093BB9C /* Build configuration list for PBXProject "Htlaeh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2444F18A1990214A0093BB9C;
+			productRefGroup = 2444F1941990214A0093BB9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2444F1921990214A0093BB9C /* Htlaeh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2444F1911990214A0093BB9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2444F1AF1990214A0093BB9C /* Images.xcassets in Resources */,
+				2444F1A11990214A0093BB9C /* InfoPlist.strings in Resources */,
+				2444F1AA1990214A0093BB9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2444F18F1990214A0093BB9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2468842D1A4EA6D100A90E5F /* HMoveEditPreviewViewController.m in Sources */,
+				2444F1D7199085440093BB9C /* HMoveSignInViewController.m in Sources */,
+				246DA309199842FC00EB1374 /* HMoveSignUpViewController.m in Sources */,
+				246FD4C119EC8FAD00BBFC36 /* HMoveEditViewController.m in Sources */,
+				2444F1AD1990214A0093BB9C /* HMoveViewController.m in Sources */,
+				241572F719AECD7B00C046A4 /* HMoveHomeViewController.m in Sources */,
+				2498EB3619CA26730037090E /* HMoveCounterViewController.m in Sources */,
+				2444F1A71990214A0093BB9C /* HMoveAppDelegate.m in Sources */,
+				24BC7D7D19C17494007C6DFE /* HErrorViewController.m in Sources */,
+				2444F1A31990214A0093BB9C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2444F19F1990214A0093BB9C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2444F1A01990214A0093BB9C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2444F1A81990214A0093BB9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2444F1A91990214A0093BB9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2444F1BE1990214B0093BB9C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2444F1BF1990214B0093BB9C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2444F1C31990214B0093BB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2444F1C41990214B0093BB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2444F1C61990214B0093BB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Move/Htlaeh-Prefix.pch";
+				INFOPLIST_FILE = "Move/Htlaeh-Info.plist";
+				PRODUCT_NAME = Htlaeh;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2444F1C71990214B0093BB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Move/Htlaeh-Prefix.pch";
+				INFOPLIST_FILE = "Move/Htlaeh-Info.plist";
+				PRODUCT_NAME = Htlaeh;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2444F18E1990214A0093BB9C /* Build configuration list for PBXProject "Htlaeh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2444F1C31990214B0093BB9C /* Debug */,
+				2444F1C41990214B0093BB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2444F1C51990214B0093BB9C /* Build configuration list for PBXNativeTarget "Htlaeh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2444F1C61990214B0093BB9C /* Debug */,
+				2444F1C71990214B0093BB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2444F18B1990214A0093BB9C /* Project object */;
+}
